@@ -1,0 +1,13 @@
+{
+  "radar_bass": {
+    "sounds": [
+      "teeth:radar_bass"
+    ]
+  },
+  "radar_whir": {
+    "sounds": [
+      "teeth:radar_whir"
+    ]
+  }
+}
+

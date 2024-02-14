@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "powered=true,facing=north": { "model": "teeth:block/mother_computer", "uvlock": true },
+    "powered=true,facing=east":  { "model": "teeth:block/mother_computer", "y":  90, "uvlock": true },
+    "powered=true,facing=south": { "model": "teeth:block/mother_computer", "y": 180, "uvlock": true },
+    "powered=true,facing=west":  { "model": "teeth:block/mother_computer", "y": 270, "uvlock": true },
+    "powered=false,facing=north": { "model": "teeth:block/mother_computer_off", "uvlock": true },
+    "powered=false,facing=east":  { "model": "teeth:block/mother_computer_off", "y":  90, "uvlock": true },
+    "powered=false,facing=south": { "model": "teeth:block/mother_computer_off", "y": 180, "uvlock": true },
+    "powered=false,facing=west":  { "model": "teeth:block/mother_computer_off", "y": 270, "uvlock": true }
+
+  }
+}
+

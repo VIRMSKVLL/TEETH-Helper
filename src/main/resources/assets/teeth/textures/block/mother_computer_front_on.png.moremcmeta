@@ -1,0 +1,13 @@
+{
+  "animation": {
+    "interpolate": true,
+    "frametime": 10,
+     "frames": [
+       0, 1
+    ]
+  },
+  "overlay": {
+      "texture": "teeth:textures/block/mother_computer_front_on_e.png",
+      "emissive": true
+  }
+}

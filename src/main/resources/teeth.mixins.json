@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "reivk.teeth_helper.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExampleMixin",
+    "InitialSpawnMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

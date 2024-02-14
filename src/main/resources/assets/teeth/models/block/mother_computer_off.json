@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "teeth:block/panel",
+    "front": "teeth:block/mother_computer_front_off",
+    "particle": "teeth:block/double_panel",
+    "side": "teeth:block/double_panel",
+    "top": "teeth:block/panel"
+  }
+}

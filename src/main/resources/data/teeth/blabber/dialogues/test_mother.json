@@ -1,0 +1,38 @@
+{
+  "states": {
+    "start": {
+      "text": "[INTERFACE 2037 READY FOR INQUIRY]",
+      "choices": [
+        {
+          "text": "REQUEST ENHANCEMENT",
+          "next": "kablam"
+        },
+        {
+          "text": "NEVERMIND",
+          "next": "goodbye"
+        }
+      ],
+      "type": "default"
+    },
+    "goodbye": {
+      "text": "",
+      "choices": [],
+      "type": "end_dialogue"
+    },
+    "kablam": {
+      "text": "Self destruct initiated ",
+      "choices": [
+        {
+          "next": "goodbye",
+          "text": "D:"
+        }
+      ],
+      "action": {
+        "type": "blabber:command",
+        "value": "summon tnt"
+      },
+      "type": "default"
+    }
+  },
+  "start_at": "start"
+}
